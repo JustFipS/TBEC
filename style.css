@@ -1,30 +1,49 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-li {
-    color:#1d20af;
-    line-height: 1.5;
-    font-size: 16pt;
-    font-weight: bold;
-}
 body {
-    display: grid;
-    font-family: "Poppins", sans-serif;
-    place-items: center;
-    background-color:rgb(139, 133, 133);
-    font-family: "Poppins", sans-serif;
-    flex-wrap: wrap;
-    height: 100%;
-    width: 100%;
-}
-.box-1 {
-    box-shadow: 1px 2px 3px ;
-    border-radius: 58px;
-    box-shadow: 3px, 8px, 16px,  rgba(2, 0, 0, 0.1);
-    padding: 10px ;
-    cursor: pointer;
-	box-sizing: border-box;
-    padding: 8px 10px;
-}
-p {
-    font-weight: bold;
-    font-size: 24px;
-}
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  ``
+  
